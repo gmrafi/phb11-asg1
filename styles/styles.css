@@ -1,7 +1,7 @@
 * {
     margin: 1px;
     padding: 1px;
-align-items: center;
+background-color: #F1F1F3;
 }
     
 .title1 
@@ -126,4 +126,9 @@ flex: 1 0 0;
 border-radius: 16px;
 border: 0px solid #5490F5;
 background:#FFC239;
+}
+
+.news-box {
+    display: flex;
+   
 }
