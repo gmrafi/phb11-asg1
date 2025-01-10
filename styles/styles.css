@@ -1,5 +1,129 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 1px;
+    padding: 1px;
+align-items: center;
+}
+    
+.title1 
+{
+    color: #0E0E0E;
+font-family: "Fira Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.nevbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.button1 {
+    color: #006A50;
+font-family: "Fira Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    border-radius: 8px;
+border: 1px solid #006A50;
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.button2 {
+    color: #FFF;
+font-family: "Fira Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    display: flex;
+padding: 17px 34px;
+justify-content: center;
+align-items: center;
+gap: 48px;
+border-radius: 8px;
+background: #006A50; 
+}
+
+.bn {
+    color: rgba(14, 14, 14, 0.50);
+font-family: "Fira Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.idea {
+    color: #0E0E0E;
+font-family: "Fira Sans";
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.hero-img {
+    display: flex;
+width: 500px;
+padding: 80px 100px;
+justify-content: center;
+align-items: center;
+gap: 64px;
+}
+.banner {
+    display: flex;
+    width: 1200px;
+    height: ;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+background: #C6E4D6;
+}
+
+.box{
+    display: flex;
+
+}
+.box1 {
+    display: flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1 0 0;
+border-radius: 16px;
+border: 0px solid #5490F5;
+background: rgba(84, 144, 245, 0.20);
+}
+.box2 {
+    display: flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1 0 0;
+border-radius: 16px;
+border: 0px solid #5490F5;
+background:#C6E4D6;
+}
+
+.box3 {
+    display: flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1 0 0;
+border-radius: 16px;
+border: 0px solid #5490F5;
+background:#FFC239;
 }
