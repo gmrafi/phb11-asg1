@@ -1,7 +1,7 @@
 * {
     margin: 1px;
     padding: 1px;
-background-color: #F1F1F3;
+
 }
     
 .title1 
@@ -131,4 +131,81 @@ background:#FFC239;
 .news-box {
     display: flex;
    
+}
+
+.donate {
+   
+}
+
+.d-text {
+    color: #0E0E0E;
+text-align: center;
+font-family: "Fira Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.d-text2 {
+    color: rgba(14, 14, 14, 0.70);
+text-align: center;
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+.d-box {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+    
+
+
+.d-box-text {
+    display: flex;
+    align-items: center;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp1 {
+    display: flex;
+    width: 1032px;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+text-align: center;
+}
+
+.button2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        border-radius: 8px;
+        border: 1px solid rgba(14, 14, 14, 0.10);
+        background: #006A50;
+        margin: 10px 0;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
 }
