@@ -189,23 +189,52 @@ background: #FFF;
     padding: 20px 40px;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-background: #FFF;
-text-align: center;
+    background: #FFF;
+    text-align: center;
 }
 
-.button2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.button3 {
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+    background: #006A50;
+    margin: 10px 0;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+   
 
+}
 
-        border-radius: 8px;
-        border: 1px solid rgba(14, 14, 14, 0.10);
-        background: #006A50;
-        margin: 10px 0;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+.newslatter {
+
+width: 1280px;
+padding: 80px 100px;
+justify-content: center;
+align-items: center;
+gap: 64px;
+border-radius: 24px;
+background: #C6E4D6;
+margin-bottom: 20px;
+
+}
+.footer{
+    color: #000000;
+    text-align: center;
+
+    
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+    gap: 20px; 
 }
